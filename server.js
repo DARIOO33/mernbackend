@@ -10,7 +10,7 @@ const app = express()
 
 app.use(cors({
     origin: ["http://localhost:1000",
-        "https://app-mern-workout-app.onrender.com"]
+        "https://mern-workouts-app.onrender.com"]
 }));
 app.use(express.json())
 
